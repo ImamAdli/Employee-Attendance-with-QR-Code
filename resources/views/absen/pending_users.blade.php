@@ -13,7 +13,7 @@
     <div class="row">
         <div class="col-12">
             <div class="card shadow-sm">
-                <div class="card-header bg-warning text-dark"> {{-- Menggunakan bg-warning untuk status pending --}}
+                <div class="card-header bg-warning text-dark">
                     <h5 class="mb-0">Daftar Siswa Menunggu Persetujuan</h5>
                 </div>
                 <div class="card-body">
