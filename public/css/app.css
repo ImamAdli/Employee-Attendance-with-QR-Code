@@ -1,0 +1,143 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f4f6fb;
+}
+
+/* Card login custom */
+.login-card-custom {
+    border-radius: 18px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.10);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Jarak antara header dan card login */
+@media (min-width: 768px) {
+    .login-header {
+        margin-bottom: 2.5rem !important;
+    }
+    .min-vh-70 {
+        min-height: 70vh !important;
+    }
+}
+@media (max-width: 767.98px) {
+    .login-header {
+        margin-bottom: 1.5rem !important;
+    }
+    .min-vh-70 {
+        min-height: 60vh !important;
+    }
+}
+
+.card-header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-header h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.footer {
+    color: #888;
+    font-size: 0.95rem;
+}
+
+/* Sidebar dan Layout Siswa */
+.sidebar { 
+    width: 240px; 
+    background: #0d6efd; 
+    min-height: 100vh; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    color: #fff; 
+}
+
+.sidebar .nav-link { 
+    color: #fff; 
+    border-radius: 8px; 
+    margin-bottom: 6px; 
+}
+
+.sidebar .nav-link.active, .sidebar .nav-link:hover { 
+    background: #fff; 
+    color: #0d6efd; 
+}
+
+.sidebar .sidebar-header { 
+    text-align: center; 
+    padding: 2rem 1rem 1rem 1rem; 
+}
+
+.sidebar .sidebar-header img { 
+    width: 80px; 
+    height: 80px; 
+    object-fit: cover; 
+    border-radius: 50%; 
+    border: 3px solid #fff; 
+}
+
+.sidebar .sidebar-header h5 { 
+    margin-top: 1rem; 
+    font-weight: bold; 
+}
+
+.main-content { 
+    margin-left: 240px; 
+    min-height: 100vh; 
+    padding: 30px 20px 20px 20px; 
+}
+
+.navbar-siswa { 
+    background: #fff; 
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04); 
+    margin-bottom: 2rem; 
+}
+
+/* Dashboard Siswa */
+.alert-welcome {
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.card.shadow-sm {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05) !important;
+}
+
+.card-header {
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    font-weight: 600;
+}
+
+.btn-scan-qr {
+    border-radius: 8px;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+
+.status-card {
+    transition: all 0.3s;
+}
+
+.status-card:hover {
+    transform: translateY(-3px);
+}
+
+/* Responsive */
+@media (max-width: 991.98px) {
+    .sidebar { 
+        position: static; 
+        width: 100%; 
+        min-height: auto; 
+    }
+    .main-content { 
+        margin-left: 0; 
+        padding: 15px; 
+    }
+}
